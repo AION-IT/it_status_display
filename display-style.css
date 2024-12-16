@@ -35,7 +35,7 @@ h2 {
 
 #status-container {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: space-around; /* Evenly spaces items */
       align-items: stretch;
       overflow-x: auto;
