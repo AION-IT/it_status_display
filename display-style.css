@@ -36,25 +36,25 @@ h2 {
 }
 
 #status-container {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around; /* Evenly spaces items */
-      align-items: flex-start;
-      overflow-x: auto;
-      grid-template-columns: repeat(auto-fit,   minmax(200px,1fr));
-      gap: 5px;
-      padding: 10px;
+    display: flex;
+    flex-direction: column; /* Stack boxes vertically */
+    align-items: flex-start; /* Align boxes to the left */
+    padding: 0; /* Remove extra padding */
+    margin: 0 auto; /* Center the container horizontally */
+    width: fit-content; /* Shrink container to fit the content */
 }
 
 #status-container div {
-      flex: 1; /* Ensures equal width for all boxes */
-      max-width: 150px; /* Make the boxes smaller */ 
-      margin: 5px 0; /* Reduce the space between boxes */
-      padding: 5px; /* Reduce padding inside the boxes */
-      border: 1px solid #333;
-      border-radius: 8px;
-      background-color: #ffffff;
+    width: 100%; /* Ensure boxes take full container width */
+    max-width: 150px; /* Adjust the maximum width of each box */
+    margin: 5px 0; /* Space between boxes only vertically */
+    padding: 5px; /* Reduce internal padding */
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-sizing: border-box; /* Include padding and border in width calculations */
 }
+
 
 .status-indicator {
   display: inline-block;
