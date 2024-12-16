@@ -48,9 +48,9 @@ h2 {
 
 #status-container div {
       flex: 1; /* Ensures equal width for all boxes */
-      max-width: 200px;
-      margin: 10px 0;
-      padding: 10px;
+      max-width: 150px; /* Make the boxes smaller */ 
+      margin: 5px 0; /* Reduce the space between boxes */
+      padding: 5px; /* Reduce padding inside the boxes */
       border: 1px solid #333;
       border-radius: 8px;
       background-color: #ffffff;
