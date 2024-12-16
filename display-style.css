@@ -14,16 +14,11 @@ header {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-p {
-    font-size: 20px;
-}
-
 main {
   padding: 10px;
 }
 
 h2 {
-  font-size: 25px;
   color: #000000;
   border-bottom: 2px solid #000000;
   padding-bottom: 5px;
