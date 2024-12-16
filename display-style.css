@@ -36,24 +36,24 @@ h2 {
 }
 
 #status-container {
-    display: flex;
-    flex-direction: column; /* Stack boxes vertically */
-    align-items: flex-start; /* Align boxes to the left */
-    padding: 0; /* Remove extra padding */
-    margin: 0 auto; /* Center the container horizontally */
-    width: fit-content; /* Shrink container to fit the content */
+    display: grid; /* Switch to grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Create 2 equal columns */
+    gap: 10px; /* Add space between the boxes */
+    justify-content: center; /* Center the grid horizontally */
+    align-items: center; /* Align the boxes vertically */
+    padding: 10px; /* Optional padding for spacing inside the container */
+    margin: 0 auto; /* Center the container */
 }
 
 #status-container div {
-    width: 100%; /* Ensure boxes take full container width */
-    max-width: 150px; /* Adjust the maximum width of each box */
-    margin: 5px 0; /* Space between boxes only vertically */
-    padding: 5px; /* Reduce internal padding */
-    border: 1px solid #333;
-    border-radius: 8px;
-    background-color: #ffffff;
-    box-sizing: border-box; /* Include padding and border in width calculations */
+    padding: 10px; /* Space inside each box */
+    border: 1px solid #333; /* Box border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #ffffff; /* Box background color */
+    box-sizing: border-box; /* Include border and padding in box size */
+    text-align: center; /* Center the text inside the boxes */
 }
+
 
 
 .status-indicator {
