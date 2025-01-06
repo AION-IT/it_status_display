@@ -48,7 +48,7 @@ h2 {
 #status-container {
     display: grid; /* Switch to grid layout */
     grid-template-columns: repeat(2, 1fr); /* Create 2 equal columns */
-    gap: 10px; /* Add space between the boxes */
+    gap: 5px; /* Add space between the boxes */
     justify-content: center; /* Center the grid horizontally */
     align-items: center; /* Align the boxes vertically */
     padding: 0; /* Optional padding for spacing inside the container */
