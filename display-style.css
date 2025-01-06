@@ -56,7 +56,7 @@ h2 {
 }
 
 #status-container div {
-    padding: 2px; /* Space inside each box */
+    padding: 1px; /* Space inside each box */
     border: 1px solid #333; /* Box border */
     border-radius: 8px; /* Rounded corners */
     background-color: #ffffff; /* Box background color */
