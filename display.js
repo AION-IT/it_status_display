@@ -15,7 +15,7 @@ function getStatusColor(status) {
 }
 
 function displayStatusUpdates() {
-    const applications = ['realpage', 'gracehill', 'outlook', 'missionControl'];
+    const applications = ['realpage', 'ticket', 'outlook', 'missionControl'];
 
     applications.forEach(appId => {
         getStatusUpdates(appId, (data) => {
